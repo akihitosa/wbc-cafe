@@ -261,6 +261,14 @@ aside p {
     .menu-content {
         margin-top: 20%;
     }
+    .big-box {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .big-box img {
+        height: auto;
+
+    }
 }
 
 /*MENU
@@ -290,9 +298,11 @@ aside p {
 }
 .big-box {
     grid-column: 1 / 3 ;
-    grid-row: 1 / 3;
+    grid-row: 1 / 3 ;
+    height: 100%;
 }
 .big-box img {
     height: 94%;
     width: 100%;
+    object-fit: cover;
 }
