@@ -371,10 +371,9 @@ input[type="submit"] {
 .location-info p {
     padding: 12px 10px;
 }
-.locarion-map {
-    width: 74%
-} 
-/* iframe */
+.location-map {
+    width: 74%;
+}
 iframe {
     width: 100%;
 }
